@@ -1,0 +1,67 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+body{
+    background-color: aliceblue;
+   
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid blue;
+    font-size: 50px;
+}
+
+h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid blue;
+    background-color: antiquewhite;
+    font-size: 45px;
+}
+
+h3{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid blue;
+}
+
+h4{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid blue;
+}
+
+h5{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid blue;
+}
+
+.paragf{
+    text-align: left;
+}
+
+p { 
+    text-align: right;
+}
+
+.pagJustf{
+    text-align: justify;
+}
+#pagCentralizado{
+    text-align: center;
+}
+
+#pagEsquerda{
+    text-align: left;
+}
+
+#pagFooter{
+    text-align: left;
+}
+
