@@ -20,5 +20,15 @@ Repositório para a Disciplina de Fundamentos de Programação Web do curso de S
 │   ├── src
 │   │   └── img-01.jpg
 │   └── styles.css
+├── Ex04
+│   ├── css
+│   │   └── style.css
+│   └── site
+│       ├── imagens
+│       │   └── img-01.jpg
+│       ├── index.html
+│       └── noticias
+│           └── not_politica.html
 └── README.md
+
 ```
