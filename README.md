@@ -30,9 +30,3 @@ Repositório para a Disciplina de Fundamentos de Programação Web do curso de S
 │       └── noticias
 │           └── not_politica.html
 └── README.md
-<<<<<<< HEAD
-
-```
-=======
-```
->>>>>>> e938f1fce8f7091cf84835931ea9efb6a70ed17d
