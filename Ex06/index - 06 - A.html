@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<br lang="pt-br">
+
+	<head>
+		<title> Atividade prática 06 - A </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		
+		<style>
+			body{
+				background-color: aquamarine;
+			}
+			h1{
+				text-align: center;
+				color: cornflowerblue;
+			}
+			caption{
+				font-size: 175%;
+			}
+			table, tr, th, td{
+				
+				border: 1px solid black;
+				border-collapse: collapse;
+			  
+			}
+	
+			th, td{
+				  padding: 15px;
+				  width: 25%;
+			}
+			table{
+				width: 100%;
+				border-spacing: 15px;
+			}
+			
+			#table2 th, td{
+				width: 16.6%;
+			}
+
+			#table3 th, td{
+				width: 16.6%;
+			}
+			
+			
+		</style>
+	</head>
+	
+	<br>
+		<H1> Minha página Web - Atividade 06 - A </H1>
+		
+		<table id="table1">
+			<caption id="caption1"> Tabela 01: Monitoria Web </caption>
+			<tr>
+				<th> Dia / Hora </th>
+				<th> Ter </th>	
+				<th> Quar </th>
+				<th> Quin </th>
+			</tr>
+			
+			<tr>
+				<td> 11:00 </td>
+				<td> X </td>
+				<td> </td>
+				<td> X </td>	
+		    </tr>
+			
+			<tr>
+				<td> 13:00 </td>
+				<td> </td>
+				<td> X </td>
+				<td> X </td>			
+			</tr>
+			
+			<tr>
+				<td> 15:00 </td>	
+				<td> X </td>	
+				<td> </td>	
+				<td> X </td>
+			
+			</tr>
+			
+			<tr>
+				<td> 18:00 </td>
+				<td> </td>
+				<td> X </td>
+				<td> X </td>	
+			</tr>
+		
+		
+		</table>
+		
+		<br>
+		<br>
+		
+		<table id="table2">
+		
+			<caption id="caption2"> Tabela 02: Horário das aulas </caption>
+			
+			<tr>
+				<th>  /  </th>
+				<th> Seg </th>	
+				<th> Ter </th>
+				<th> Quar </th>
+				<th> Quin </th>
+				<th> Sex </th>
+			</tr>
+			
+			<tr>
+				<td> 10:00 às 12:00 </td>	 
+				<td> FPW </td>
+				<td> Prog I </td>
+				<td> Prog I </td>
+				<td>  ED I </td>
+				<td> MAT </td>
+			</tr>
+			
+			<tr>
+				<td> 13:00 às 15:00 </td>
+				<td> - </td>
+				<td> FPW </td>
+				<td> - </td>
+				<td> ING </td>
+				<td> MAT </td>				
+			</tr>
+			
+			<tr>
+				<td> 15:00 às 17:00</td>			
+				<td> ED I </td>
+				<td> - </td>
+				<td> COMP </td>
+				<td> COMP </td>
+				<td> ING </td>		
+			
+			</tr>		
+		</table>
+		
+		<br>
+		<br>
+
+		<br>
+		<br>
+		
+		<table id="table3">
+		
+			<caption id="caption3"> Tabela 03: Atendimento ao Aluno </caption>
+			<tr>
+				<th>  Prof. J  </th>
+				<th> Seg </th>	
+				<th> Ter </th>
+				<th> Quar </th>
+				<th> Quin </th>
+				<th> Sex </th>
+			</tr>
+			
+			<tr>
+				<th>  08:00 às 12:00  </th>
+				<td> X </td>	
+				<td> - </td>
+				<td> - </td>
+				<td> X </td>
+				<td> X </td>
+			</tr>
+			
+			<tr>
+				<th> 10:00 às 12:00 </th>	 
+				<td> - </td>	
+				<td> - </td>
+				<td> X </td>
+				<td> - </td>
+				<td> - </td>
+			</tr>
+			
+			<tr>
+				<th> 13:00 às 15:00 </th>
+				<td> X </td>	
+				<td> - </td>
+				<td> - </td>
+				<td> X </td>
+				<td> X </td>			
+			</tr>
+			
+			<tr>
+				<th> 15:00 às 17:00</th>			
+				<td> X </td>	
+				<td> - </td>
+				<td> - </td>
+				<td> X </td>
+				<td> X </td>
+			
+			</tr>		
+
+			<tr>
+				<th> 18:00 às 20:00</th>			
+				<td> X </td>	
+				<td> X </td>
+				<td> - </td>
+				<td> - </td>
+				<td> - </td>
+			
+			</tr>	
+		</table>
+
+		</br>
+	</br>
+		
+		<button onclick="alterarLegenda();"> Clica me </button>
+		
+	<script>
+		function alertar(){
+			alert("Atenção");
+		}
+		function alterarLegenda(){
+		 document.getElementById('caption1').innerHTML = "Minha legenda alterada. ";
+		}
+	</script>
+		
+	</body>
+	
+	
+</html>

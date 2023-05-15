@@ -29,4 +29,8 @@ Repositório para a Disciplina de Fundamentos de Programação Web do curso de S
 │       ├── index.html
 │       └── noticias
 │           └── not_politica.html
+├── Ex06
+│   └── index - 06 - A.html
 └── README.md
+
+```
