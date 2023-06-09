@@ -31,6 +31,10 @@ Repositório para a Disciplina de Fundamentos de Programação Web do curso de S
 │           └── not_politica.html
 ├── Ex06
 │   └── index - 06 - A.html
+├── Ex07
+│   ├── index.html
+│   └── sopa.jpg
+├── head
+│   └── README.md
 └── README.md
-
 ```
